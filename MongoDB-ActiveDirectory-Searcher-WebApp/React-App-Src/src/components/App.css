@@ -1,0 +1,53 @@
+body {
+  background: #3397ff5c;
+}
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.items-div {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+
+.items-div > div {
+  width: 45%;
+  text-align: center;
+  border: black;
+  border-style: solid;
+  margin: 10px 10px 10px 10px;
+}
+
+.item-card_old {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-align: center;
+  border: black;
+  border-style: solid;
+  max-width: 40%;
+  display: inline-block;
+  margin: 10px 10px 10px 10px;
+}
+
+.bold-span {
+  font-weight: bold;
+}
